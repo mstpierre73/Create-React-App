@@ -8,6 +8,6 @@ console.log("I'd like one " + myChoice + ", please.");
 console.log("Here you go: " + myChoice);
 console.log("Delicious! May I have another ?");
 remove(fruits, myChoice);
-console.log("I'm sorry, we're all out. We have " + fruits.length + " left.");
+console.log("I'm sorry, we're all out. We have " + fruits.length + " others fruits left.");
 console.log(fruits);
 
