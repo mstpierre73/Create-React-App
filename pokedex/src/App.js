@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Pokedex from './Pokedex.js';
 import './App.css';
+import Pokegame from './Pokegame.js';
+import Pokedex from './Pokedex';
 
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
         <h1>
           Mon Pokedex
         </h1>
-        <Pokedex />
+        < Pokedex />
+        < Pokegame />
       </header>
     </div>
     );

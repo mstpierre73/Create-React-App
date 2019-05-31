@@ -11,6 +11,10 @@
     border-radius: 5px;
 }
 
+img{
+    width: 40%;
+}
+
 .Pokecard-title {
     font-size: 24px;
 }
@@ -22,12 +26,17 @@
 @media screen and (max-width: 1500px){
     .Pokecard {
         width: 20%;
+        height: 28vh;
     }
 }
 
 @media screen and (max-width: 1200px){
     .Pokecard {
         width: 25%;
+    }
+
+    img{
+        width: 45%;
     }
 }
 
@@ -36,11 +45,19 @@
         width: 30%;
         height: 30vh;
     }
+
+    img{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 500px){
     .Pokecard {
         width: 40%;
+    }
+
+    img{
+        width: 65%;
     }
 }
 
