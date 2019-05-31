@@ -7,7 +7,45 @@
     margin: 20px;
     width: 15%;
     height: 25vh;
+    box-shadow: 7px 10px 12px -5px rgb(1,38,28, 0.5);
+    border-radius: 5px;
+}
+
+.Pokecard-title {
+    font-size: 24px;
+}
+
+.Pokecard-data {
     font-size: 16px;
 }
 
+@media screen and (max-width: 1500px){
+    .Pokecard {
+        width: 20%;
+    }
+}
 
+@media screen and (max-width: 1200px){
+    .Pokecard {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Pokecard {
+        width: 30%;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Pokecard {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .Pokecard {
+        width: 60%;
+    }
+}
