@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 import Pokegame from './Pokegame.js';
-import Pokedex from './Pokedex';
-
 
 class App extends Component {
   render(){
@@ -10,9 +8,8 @@ class App extends Component {
       <div className="App">
       <header className="App-header">
         <h1>
-          Mon Pokedex
+          Bienvenue dans le monde des Pokemons!
         </h1>
-        < Pokedex />
         < Pokegame />
       </header>
     </div>
