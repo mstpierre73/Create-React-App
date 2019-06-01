@@ -10,5 +10,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: #01261C;
+  margin: 0;
+  padding: 0;
 }
 
