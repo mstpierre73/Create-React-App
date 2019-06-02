@@ -34,13 +34,55 @@ class Pokegame extends Component {
             {id: 26, name: 'Raichu', type: 'electric', experience: 504},
             {id: 27, name: 'Sabelette', type: 'sol', experience: 222},
             {id: 28, name: 'Sablaireau', type: 'sol', experience: 633},
-
+            {id: 29, name: 'Nidoran', type: 'poison', experience: 98},
+            {id: 30, name: 'Nidorina', type: 'poison', experience: 479},
+            {id: 31, name: 'Nidoqueen', type: 'poison, sol', experience: 971},
+            {id: 32, name: 'Nidoran', type: 'poison', experience: 78},
+            {id: 33, name: 'Nidorino', type: 'poison', experience: 395},
+            {id: 34, name: 'Nidoking', type: 'poison, sol', experience: 878},
+            {id: 35, name: 'Mélofée', type: 'fée', experience: 111},
+            {id: 36, name: 'Mélodelfe', type: 'fée', experience: 515},
+            {id: 37, name: 'Goupix', type: 'feu', experience: 49},
+            {id: 38, name: 'Feunard', type: 'feu', experience: 216},
             {id: 39, name: 'Rondoudou', type: 'normal, fée', experience: 95},
+            {id: 40, name: 'Grodoudou', type: 'normal, fée', experience: 322},
+            {id: 41, name: 'Nosferapti', type: 'poison, vol', experience: 76},
+            {id: 42, name: 'Nosferalto', type: 'poison, vol', experience: 179},
+            {id: 43, name: 'Mystherbe', type: 'poison, plante', experience: 83},
+            {id: 44, name: 'Ortide', type: 'poison, plante', experience: 344},
+            {id: 45, name: 'Rafflesia', type: 'poison, plante', experience: 776},
+            {id: 46, name: 'Paras', type: 'insecte, plante', experience: 124},
+            {id: 47, name: 'Parasect', type: 'insecte, plante', experience: 546},
+            {id: 48, name: 'Mimitoss', type: 'poison, insecte', experience: 202},
+            {id: 49, name: 'Aéromite', type: 'poison, insecte', experience: 601},
+            {id: 50, name: 'Taupiqueur', type: 'sol', experience: 39},
+            {id: 51, name: 'Triopikeur', type: 'sol', experience: 155},
+            {id: 52, name: 'Miaouss', type: 'normal', experience: 179},
+            {id: 53, name: 'Persian', type: 'normal', experience: 316},
+            {id: 54, name: 'Psychokwak', type: 'eau', experience: 312},
+            {id: 55, name: 'Akwakwak', type: 'eau', experience: 674},
+            {id: 56, name: 'Férosinge', type: 'combat', experience: 229},
+            {id: 57, name: 'Colossinge', type: 'combat', experience: 733},
+            {id: 58, name: 'Caninos', type: 'feu', experience: 404},
+            {id: 59, name: 'Arcanin', type: 'feu', experience: 963},
+            {id: 60, name: 'Ptitard', type: 'eau', experience: 18},
+            {id: 61, name: 'Têtarde', type: 'eau', experience: 227},
+            {id: 62, name: 'Tartard', type: 'eau, combat', experience: 584},
+            {id: 63, name: 'Abra', type: 'psy', experience: 368},
+            {id: 64, name: 'Kadabra', type: 'psy', experience: 799},
+            {id: 65, name: 'Alakazam', type: 'psy', experience: 1094},
+            {id: 66, name: 'Machoc', type: 'combat', experience: 412},
+            {id: 67, name: 'Machopeur', type: 'combat', experience: 816},
+            {id: 68, name: 'Mackogneur', type: 'combat', experience: 1111},
+            {id: 69, name: 'Chétiflor', type: 'plante, poison', experience: 306},
+            {id: 70, name: 'Boustiflor', type: 'plante, poison', experience: 785},
+            {id: 71, name: 'Empiflor', type: 'plante, poison', experience: 1022},
+
             {id: 94, name: 'Ectoplasma', type: 'poison, spectre', experience: 225},
             {id: 133, name: 'Evoli', type: 'normal', experience: 65},
             {id: 137, name: 'Porygon', type: 'normal', experience: 476},
             {id: 143, name: 'Ronflex', type: 'normal', experience: 895},
-            {id: 149, name: 'Dracolosse', type: 'dragon, vol', experience: 992}
+            {id: 149, name: 'Dracolosse', type: 'dragon, vol', experience: 1346}
           ]
     };
 
@@ -68,6 +110,7 @@ class Pokegame extends Component {
         return(
             <div className="Pokegame-field">
                 <h1>Entrez dans l'arène!</h1>
+                <a className="Pokegame-link" href="/">Commencer la partie</a>
                 <Pokedex player={player1} pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
                 <Pokedex player={player2} pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
             </div>

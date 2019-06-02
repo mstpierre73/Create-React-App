@@ -2,3 +2,19 @@
     margin: 0;
     width: 90%;
 }
+
+.Pokegame-link {
+    display: block;
+    border: 3px solid #79A637;
+    background-color: #A1D94E;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #01261C;
+    box-shadow: 7px 10px 12px -5px rgb(1,38,28, 0.5);
+    font-size: 80%;
+}
+
